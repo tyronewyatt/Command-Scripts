@@ -54,12 +54,12 @@ Windows Registry Editor Version 5.00
 "CurrentlyLoggedOnDNUsers"="tyrone.wyatt"
 "isRSA"=dword:00000001
 "InstallSource"="SOM"
-"EnableRemoteOfficeMgmt"="YES"
+"EnableRemoteOfficeMgmt"="NO"
 "DCAgentPollingInterval"="5"
 "AssetLock"=dword:00000000
 "dmsPrimaryServerName"=""
 "PatchScanRetryCount"=dword:00000000
-"RemoteOfficeName"="Roaming Workers"
+"RemoteOfficeName"="Local Office"
 "PerformPatchScan"="yes"
 "ServicePackLevel"="0"
 "EnableSilentInstalltion"="YES"
@@ -88,7 +88,7 @@ Windows Registry Editor Version 5.00
 "MSIPackageDirectory"="C:\\Windows\\Installer\\{6AD2231F-FF48-4D59-AC26-405AFAE23DB7}\\"
 "dms_sid"=""
 "DCPatchScanLock"=dword:00000001
-"DataTransferRate_KBps"="5120"
+"DataTransferRate_KBps"="0"
 "DCAgentLogLevel"=dword:00000002
 "productID"=""
 "EnableRemoteOffice"="yes"
@@ -102,7 +102,7 @@ Windows Registry Editor Version 5.00
 "ProductCode"=dword:00000001
 "BlockCrashedConfig"=dword:00000000
 "RemoteOfficeAuthKey"="b64133cdbd59469d68839449a3fe08fe"
-"RemoteOfficeID"="601"
+"RemoteOfficeID"="1"
 "AgentServiceName"="ManageEngine UEMS - Agent"
 "ProxyEnabled"="no"
 "ProxyUserName"=""
@@ -113,6 +113,7 @@ Windows Registry Editor Version 5.00
 "ProductCodeTemp"=""
 "isFailOverDSEnabled"=dword:00000000
 "VulnerabilityAgentStatus"="0"
+"IsDSRouteEnabled"="false"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\AdventNet\DesktopCentral\DCAgent\AgentFeatures]
 "CompressionEnable"=dword:00000001
@@ -2142,7 +2143,7 @@ Windows Registry Editor Version 5.00
 "patch-diff-scan-settings"="Mon, 15 Aug 2022 20:24:52 GMT"
 "office-ctr-settings"="Thu, 28 Apr 2022 04:30:01 GMT"
 "agent-settings"="Sat, 03 Sep 2022 19:13:37 GMT"
-"meta-data"="Tue, 06 Sep 2022 05:19:00 GMT"
+"meta-data"="Tue, 06 Sep 2022 05:23:01 GMT"
 "VMware_List"="Tue, 04 Jun 2019 22:35:36 GMT"
 "NSStatusVersion"="Sat, 03 Sep 2022 19:16:23 GMT"
 "ServerRootCertificate"="Fri, 06 Jul 2018 03:19:27 GMT"
@@ -2182,7 +2183,7 @@ Windows Registry Editor Version 5.00
 "ServerInstalledTime"=dword:5b3edea3
 "SoMComputerDeleted"=dword:6316d843
 "IPScopeModifiedTime"=dword:6311827a
-"RemoteOfficeMetadata"=dword:6307052c
+"RemoteOfficeMetadata"=dword:00000000
 "RemoteOfficeTimeStamp"=dword:6307052c
 "DCAgentSlotLastModTime"=dword:5b3edfb7
 "DeletedCGModifiedTime"=dword:5fa9c541
@@ -2417,18 +2418,10 @@ Windows Registry Editor Version 5.00
 "DCServerSecIPAddress"="services.alburycity.nsw.gov.au"
 "DCServerFlatName"="Havoc"
 "DCServerPort"="8383"
-"DistributionServerProtocol"="https"
-"DistributionServerIPAddress"="192.168.23.184"
-"DistributionLastAccessName"="192.168.23.184"
-"DistributionServerFlatName"=""
-"DistributionServerSecurePort"="8384"
-"DistributionServerName"="dummycomputer"
-"DistributionServerPort"="8021"
-"DistributionServerSecIPAddress"="dummydomain.csez.zohocorpin.com"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\AdventNet\DesktopCentral\DCAgent\Settings]
-"TrayIconMessage"=dword:00000002
-"LastAccessTime"=dword:6316d853
+"TrayIconMessage"=dword:00000004
+"LastAccessTime"=dword:6316d98a
 "SavedLastBootUpTime"=dword:62fdc605
 "MachineLastSleepHiberResume"=dword:6315277a
 "lastRebootArg"=""
